@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  publicIP:
+    image: hai_public_ip/nodejs
+    container_name: pubicIP
+    restart: always
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "1001:1001"

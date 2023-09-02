@@ -1,0 +1,3 @@
+
+
+docker compose -f docker-compose.yml -p hai_public_ip up --build -d --force-recreate
