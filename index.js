@@ -7,10 +7,10 @@ const AUTH_TOKEN = "2qsVznjhF54E4P7QAHnz8H71tFQk4XoBXO9BnJLv";
 const ZONE_ID = "49d92e256ae53d3ac2d6650e4ecf3a7b";
 const DOMAIN = "congcucuatoi.com";
 
-const PORT = 1001;
+const PORT = 500;
 //----------
 const Axios = axios.create({
-  timeout: 1000,
+  timeout: 10000,
   headers: { Authorization: "Bearer " + AUTH_TOKEN },
 });
 
